@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Cyril Herman</title>
+  <meta name="description" content="Portfolio de Cyril Herman en design, vidéo et création visuelle." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Aller au contenu</a>
+
+  <header class="site-header">
+  <div class="container header-inner">
+    <a href="#hero" class="logo" aria-label="Retour à l'accueil">
+      <img src="assets/images/logo.png" alt="Logo de Cyril Herman" class="header-logo">
+
+    </a>
+
+    <nav class="main-nav" aria-label="Navigation principale"> 
+      <ul>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+        <button class="burger-btn" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        </button>
+        <a href="#contact" class="btn btn-primary desktop-contact">Me contacter</a>
+    </div>
+    
+  </div>
+
+  <nav class="mobile-nav" id="mobile-menu" aria-label="Navigation mobile" hidden>
+    <ul>
+      <li><a href="#about">À propos</a></li>  
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main id="main-content">
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Créateur multimédia • Vidéo • 3D • Graphisme</p>
+          <h1>HERMAN CYRIL</h1>
+          <p class="hero-text">
+            Découvrez mon univers, mes projets et mon parcours à travers ce portfolio dédié à la création visuelle et multimédia.
+          </p>
+
+          <div class="hero-actions">
+  <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+  <a href="#about" class="btn btn-glass">En savoir plus</a>
+</div>
+        </div>
+
+        <div class="hero-media" aria-label="Aperçu visuel du portfolio">
+        <div class="hero-visual-card hero-video-card">
+  <div class="hero-video-bg"></div>
+
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="assets/videos/montage-showreel.mp4" type="video/mp4">
+  </video>
+</div>
+        </div>
+      </div>
+    </section>
+
+<section id="about" class="about-section">
+  <div class="about-layout">
+    <div class="about-left">
+      <p class="eyebrow">À propos</p>
+<br>
+      <div class="about-photo-wrap">
+        <img
+          src="assets/images/profile-photo.jpg"
+          alt="Portrait de Cyril Herman"
+          class="about-photo"
+        >
+      </div>
+    </div>
+
+    <div class="about-right">
+      <p>
+        Je suis étudiant en deuxième année d’Écriture Multimédia et je m’intéresse particulièrement à la création audiovisuelle et visuelle. À travers ma formation et mes projets personnels, j’explore différents domaines comme la vidéo, la 3D, le compositing et le graphisme afin de développer une approche créative et polyvalente. J’apprécie particulièrement le tournage, le montage et tout le travail de post-production permettant de construire une identité visuelle autour d’un projet.
+      </p>
+
+      <p>
+        Ce portfolio rassemble une sélection de projets réalisés dans le cadre de ma formation, de stages et de travaux personnels. Il reflète mon évolution, les compétences que j’ai développées ainsi que mon intérêt pour les projets mêlant image, narration et création numérique. À terme, j’aimerais évoluer dans le domaine de l’audiovisuel et me diriger vers la réalisation de documentaires.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <section id="projects" class="projects section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Projets</p>
+      <h2>Mes projets</h2>
+    </div>
+
+    <article id="project-video" class="project-item">
+  <div class="project-media">
+    <button
+      class="media-trigger video-trigger"
+      type="button"
+      data-media-type="video"
+      data-media-src="assets/videos/montage-showreel.mp4"
+      data-media-title="Projet montage / tournage vidéo">
+      <img src="assets/images/video/cover.jpg" alt="Aperçu du projet vidéo">
+      <span class="play-badge">Lire la vidéo</span>
+    </button>
+  </div>
+
+  <div class="project-content">
+    <p class="project-type">Montage / tournage vidéo</p>
+    <h3>Clip Népal - Babylone</h3>
+    <p class="project-intro">
+      Le remake d’un clip de rap, réalisé dans le cadre d’un projet de montage vidéo. J’ai choisi de recréer le clip de « Babylone » du rappeur Népal, en m’inspirant de l’esthétique originale tout en y apportant ma propre touche visuelle.
+    </p>
+
+    <div class="project-meta">
+      <p><strong>Rôle :</strong> tournage, montage, dérush, habillage</p>
+      <p><strong>Outils :</strong> DaVinci Resolve, caméra, micro</p>
+    </div>
+
+    <div class="project-description">
+      <p>
+        Ce projet m’a permis de travailler la construction d’un récit visuel clair, avec un vrai soin porté au rythme, aux transitions et à l’impact des images.
+      </p>
+    </div>
+  </div>
+</article>
+
+    <article id="project-compositing" class="project-item">
+      <div class="project-media">
+    <button
+      class="media-trigger video-trigger"
+      type="button"
+      data-media-type="video"
+      data-media-src="assets/videos/compositing-showreel.mp4"
+      data-media-title="Projet compositing">
+      <img
+        src="assets/images/compositing/cover.jpg"
+        alt="Aperçu du projet de compositing"
+      >
+      <span class="play-badge">Lire la vidéo</span>
+    </button>
+  </div>
+
+      <div class="project-content">
+        <p class="project-type">Compositing / Effets visuels</p>
+        <h3>Animation en 2D/3D</h3>
+        <p class="project-intro">
+          Projet de compositing consistant à intégrer un personnage animé dans un plan fixe et à recréer un effet 2,5D. Le travail portait principalement sur la création de profondeur, l’intégration du personnage et le renforcement de l’aspect visuel de la scène.
+        </p>
+
+        <div class="project-meta">
+          <p><strong>Rôle :</strong> Réalisation complète – animation, compositing et création du rendu 2,5D</p>
+          <p><strong>Outils :</strong> After Effects, Mixamo</p>
+        </div>
+
+        <div class="project-description">
+          <p>
+            Ce projet m’a permis de développer mes compétences en compositing, en intégration visuelle et en création d’effets de profondeur afin de transformer un plan fixe en une scène plus immersive.
+          </p>
+        </div>
+      </div>
+    </article>
+
+      <article id="project-blender" class="project-item">
+        <div class="project-content">
+    
+
+    <div class="project-gallery">
+      <button class="gallery-item" type="button"
+        data-gallery="blender"
+        data-index="0"
+        data-src="assets/images/blender/render-1.jpg"
+        data-title="Render 1">
+        <img src="assets/images/blender/render-1.jpg" alt="Render Blender 1">
+      </button>
+
+      <button class="gallery-item" type="button"
+        data-gallery="blender"
+        data-index="1"
+        data-src="assets/images/blender/render-2.jpg"
+        data-title="Render 2">
+        <img src="assets/images/blender/render-2.jpg" alt="Render Blender 2">
+      </button>
+
+      <button class="gallery-item" type="button"
+        data-gallery="blender"
+        data-index="2"
+        data-src="assets/images/blender/render-3.jpg"
+        data-title="Render 3">
+        <img src="assets/images/blender/render-3.jpg" alt="Render Blender 3">
+      </button>
+    </div>
+  </div>
+
+        <div class="project-content">
+          <p class="project-type">Modélisation / Rendu 3D</p>
+          <h3>Modélisation d'une chambre en 3D</h3>
+          <p class="project-intro">
+            Un projet de modélisation 3D consistant à recréer une chambre en utilisant Blender. L’objectif était de modéliser tous les éléments de la pièce, de créer des textures réalistes et de produire un rendu final de qualité.
+          </p>
+
+          <div class="project-meta">
+            <p><strong>Rôle :</strong> modélisation et rendu 3D</p>
+            <p><strong>Outils :</strong> Blender</p>
+          </div>
+
+          <div class="project-description">
+            <p>
+              Ce projet m’a permis de travailler sur la création de modèles 3D, la texturisation et leur rendu final.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article id="project-graphisme" class="project-item">
+        <div class="project-content">
+    
+    <div class="project-gallery">
+      <button class="gallery-item" type="button"
+        data-gallery="graphisme"
+        data-index="0"
+        data-src="assets/images/graphisme/logo-1.jpg"
+        data-title="Logo 1">
+        <img src="assets/images/graphisme/logo-1.jpg" alt="Logo graphique 1">
+      </button>
+
+      <button class="gallery-item" type="button"
+        data-gallery="graphisme"
+        data-index="1"
+        data-src="assets/images/graphisme/logo-2.jpg"
+        data-title="Logo 2">
+        <img src="assets/images/graphisme/logo-2.jpg" alt="Logo graphique 2">
+      </button>
+
+      <button class="gallery-item" type="button"
+        data-gallery="graphisme"
+        data-index="2"
+        data-src="assets/images/graphisme/logo-3.jpg"
+        data-title="Logo 3">
+        <img src="assets/images/graphisme/logo-3.jpg" alt="Logo graphique 3">
+      </button>
+
+      
+    </div>
+  </div>
+
+        <div class="project-content">
+          <p class="project-type">Graphisme / Identité visuelle</p>
+          <h3>Déclinaisons de logo</h3>
+          <p class="project-intro">
+            Dans le cadre de mon stage, j’ai réalisé trois déclinaisons du logo de l’entreprise destinées à différents événements. Chaque version a été conçue pour refléter l’univers de l’activité concernée tout en respectant l’identité visuelle et la cohérence graphique de la marque.
+          </p>
+
+          <div class="project-meta">
+            <p><strong>Rôle :</strong> Conception graphique et adaptation de l’identité visuelle</p>
+            <p><strong>Outils :</strong> Adobe Illustrator </p>
+          </div>
+
+          <div class="project-description">
+            <p>
+              Ce projet m’a permis de développer mes compétences en identité visuelle et d’apprendre à adapter une charte graphique à différents contextes tout en conservant une cohérence de marque.
+            </p>
+          </div>
+        </div>
+  </div>
+</section>
+
+    <section id="skills" class="skills section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Compétences</p>
+      <h2>Compétences et outils</h2>
+    </div>
+
+    <div class="skills-grid">
+      <a href="#project-video" class="skill-card skill-link">
+        <span class="skill-dot"></span>
+        <div class="skill-content">
+          <h3>Montage / tournage vidéo</h3>
+          <p>Voir le projet associé</p>
+        </div>
+      </a>
+
+      <a href="#project-compositing" class="skill-card skill-link">
+        <span class="skill-dot"></span>
+        <div class="skill-content">
+          <h3>Compositing</h3>
+          <p>Voir le projet associé</p>
+        </div>
+      </a>
+
+      <a href="#project-blender" class="skill-card skill-link">
+        <span class="skill-dot"></span>
+        <div class="skill-content">
+          <h3>Blender / 3D</h3>
+          <p>Voir le projet associé</p>
+        </div>
+      </a>
+
+      <a href="#project-graphisme" class="skill-card skill-link">
+        <span class="skill-dot"></span>
+        <div class="skill-content">
+          <h3>Graphisme</h3>
+          <p>Voir le projet associé</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+    <section id="contact" class="contact section">
+  <div class="container contact-box">
+    <div class="contact-content">
+      <p class="eyebrow">Contact</p>
+      <h2>Échangeons autour de vos projets</h2>
+      <p>Une question, une collaboration ou simplement l’envie d’échanger ? N’hésitez pas à me contacter. Je reste disponible pour discuter de projets liés à l’audiovisuel, au multimédia et à la création visuelle.</p>
+    </div>
+
+    <div class="contact-actions">
+      <a href="mailto:herman.cyril5@gmail.com" class="btn btn-primary">Envoyer un email</a>
+      <a href="assets/docs/CV-Cyril-Herman.pdf" download="CV-Cyril-Herman.pdf" class="btn btn-secondary">
+  Télécharger mon CV
+</a>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Cyril Herman. Tous droits réservés.</p>
+      <a href="#hero">Retour en haut</a>
+    </div>
+  </footer>
+
+<div class="media-lightbox" id="mediaLightbox" aria-hidden="true">
+  <div class="media-lightbox__backdrop" data-close-lightbox></div>
+
+  <div class="media-lightbox__dialog" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle">
+    <button class="media-lightbox__close" type="button" data-close-lightbox aria-label="Fermer">
+      ×
+    </button>
+
+    <button class="media-lightbox__nav media-lightbox__nav--prev" type="button" id="lightboxPrev" aria-label="Média précédent">
+      ‹
+    </button>
+
+    <div class="media-lightbox__content" id="lightboxContent"></div>
+
+    <button class="media-lightbox__nav media-lightbox__nav--next" type="button" id="lightboxNext" aria-label="Média suivant">
+      ›
+    </button>
+
+    <p class="media-lightbox__title" id="lightboxTitle"></p>
+  </div>
+</div>
+
+<script>
+  const lightbox = document.getElementById('mediaLightbox');
+  const lightboxContent = document.getElementById('lightboxContent');
+  const lightboxTitle = document.getElementById('lightboxTitle');
+  const lightboxPrev = document.getElementById('lightboxPrev');
+  const lightboxNext = document.getElementById('lightboxNext');
+  const closeButtons = document.querySelectorAll('[data-close-lightbox]');
+  const videoTriggers = document.querySelectorAll('.video-trigger');
+  const galleryButtons = document.querySelectorAll('.gallery-item');
+
+  const galleries = {};
+  let currentGallery = null;
+  let currentIndex = 0;
+
+  galleryButtons.forEach((button) => {
+    const galleryName = button.dataset.gallery;
+    if (!galleries[galleryName]) galleries[galleryName] = [];
+    galleries[galleryName].push({
+      src: button.dataset.src,
+      title: button.dataset.title || '',
+      alt: button.querySelector('img')?.alt || ''
+    });
+
+    button.addEventListener('click', () => {
+      currentGallery = galleryName;
+      currentIndex = Number(button.dataset.index || 0);
+      openGalleryItem();
+    });
+  });
+
+  videoTriggers.forEach((button) => {
+    button.addEventListener('click', () => {
+      currentGallery = null;
+      lightbox.classList.add('is-open');
+      lightbox.setAttribute('aria-hidden', 'false');
+      lightboxTitle.textContent = button.dataset.mediaTitle || '';
+      lightboxPrev.style.display = 'none';
+      lightboxNext.style.display = 'none';
+
+      lightboxContent.innerHTML = `
+        <video controls autoplay playsinline style="width:100%;max-height:70vh;border-radius:16px;">
+          <source src="${button.dataset.mediaSrc}" type="video/mp4">
+          Votre navigateur ne supporte pas la vidéo.
+        </video>
+      `;
+    });
+  });
+
+  function openGalleryItem() {
+    const item = galleries[currentGallery][currentIndex];
+    lightbox.classList.add('is-open');
+    lightbox.setAttribute('aria-hidden', 'false');
+    lightboxTitle.textContent = item.title;
+    lightboxPrev.style.display = 'flex';
+    lightboxNext.style.display = 'flex';
+
+    lightboxContent.innerHTML = `
+      <img src="${item.src}" alt="${item.alt}">
+    `;
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('is-open');
+    lightbox.setAttribute('aria-hidden', 'true');
+    lightboxContent.innerHTML = '';
+  }
+
+  function showPrev() {
+    if (!currentGallery) return;
+    currentIndex = (currentIndex - 1 + galleries[currentGallery].length) % galleries[currentGallery].length;
+    openGalleryItem();
+  }
+
+  function showNext() {
+    if (!currentGallery) return;
+    currentIndex = (currentIndex + 1) % galleries[currentGallery].length;
+    openGalleryItem();
+  }
+
+  closeButtons.forEach(btn => btn.addEventListener('click', closeLightbox));
+  lightboxPrev.addEventListener('click', showPrev);
+  lightboxNext.addEventListener('click', showNext);
+
+  document.addEventListener('keydown', (e) => {
+    if (!lightbox.classList.contains('is-open')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') showPrev();
+    if (e.key === 'ArrowRight') showNext();
+  });
+</script>
+
+</body>
+</html>
